@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 class AverageTest extends TestCase
 {
     protected $Average; 
-    //asdfa asdfasf adsfas asdf  asdf asdf asdf asdf asdf 23
+    //asdfa asdfasf adsfas asdf  asdf asdf asdf asdf asdf 23 asd
     public function setUp()
     {
       //a asdfas asfjkl
