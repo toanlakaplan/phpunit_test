@@ -22,7 +22,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0"
+                "php": "^5.1 || ^8.0"
             },
             "require-dev": {
                 "doctrine/coding-standard": "^6.0",
@@ -92,7 +92,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=5.1"
             },
             "type": "library",
             "extra": {
@@ -142,7 +142,7 @@
             },
             "require": {
                 "ext-filter": "^7.1",
-                "php": "^7.2",
+                "php": "^5.2",
                 "phpdocumentor/reflection-common": "^2.0",
                 "phpdocumentor/type-resolver": "^1.0",
                 "webmozart/assert": "^1"
@@ -194,7 +194,7 @@
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2",
+                "php": "^5.2",
                 "phpdocumentor/reflection-common": "^2.0"
             },
             "require-dev": {
