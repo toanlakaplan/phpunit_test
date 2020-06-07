@@ -9,7 +9,7 @@ class AverageTest extends TestCase
     //asdfa asdfasf adsfas asdf  asdf
     public function setUp()
     {
-      //a asdfas
+      //a asdfas asf
         $this->Average = new Average();
     }
 
