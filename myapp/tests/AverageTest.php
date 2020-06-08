@@ -33,4 +33,10 @@ class AverageTest extends TestCase
         $numbers = [3, 7, 6, 1];
         $this->assertEquals(4.5, $this->Average->median($numbers));
     }
+
+    public function testAdd()
+    {
+        // test ad comemnt
+        $this->assertEquals(10, $this->Average->add(5, 5));
+    }
 }
