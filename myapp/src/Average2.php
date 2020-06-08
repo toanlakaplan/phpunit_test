@@ -21,6 +21,7 @@ class Average2
      */
     public function median2(array $numbers)
     {
+        // a
         sort($numbers);
         $size = count($numbers);
         if ($size % 2) {
