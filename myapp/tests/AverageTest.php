@@ -16,6 +16,7 @@ class AverageTest extends TestCase
     public function testCalculationOfMean()
     {
         //sdfsdfasfasfasdfa asdfasfassfas asdf  asdf
+        // ve
         $numbers = [3, 7, 6, 1, 5];
         $this->assertEquals(4.4, $this->Average->mean($numbers));
     }
