@@ -39,4 +39,10 @@ class AverageTest extends TestCase
         // test ad comemnt
         $this->assertEquals(10, $this->Average->add(5, 5));
     }
+
+    public function testSubtract()
+    {
+        // test ad comemnt
+        $this->assertEquals(0, $this->Average->subtract(5, 5));
+    }
 }
