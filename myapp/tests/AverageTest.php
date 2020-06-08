@@ -5,21 +5,24 @@ use PHPUnit\Framework\TestCase;
 
 class AverageTest extends TestCase
 {
-    protected $Average;
-
+    protected $Average; 
+    //asdfa asdfasf adsfas asdf  asdf asdf asdf asdf asdf 23 asd
     public function setUp()
-    {//a
+    {
+      //a asdfas asfjkl
         $this->Average = new Average();
     }
 
     public function testCalculationOfMean()
     {
+        //sdfsdfasfasfasdfa asdfasfassfas asdf  asdf
         $numbers = [3, 7, 6, 1, 5];
         $this->assertEquals(4.4, $this->Average->mean($numbers));
     }
 
     public function testCalculationOfMedian()
     {
+        //abcdds sdfsfds
         $numbers = [3, 7, 6, 1, 5];
         $this->assertEquals(5, $this->Average->median($numbers));
     }
