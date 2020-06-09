@@ -31,4 +31,15 @@ class Average
             );
         }
     }
+
+    public function add($a, $b)
+    {
+        return $a + $b;
+    }
+
+    public function subtract($a, $b)
+    {
+        //a
+        return $a - $b;
+    }
 }
